@@ -1,4 +1,4 @@
-var mdns     = require('mdns2'),
+var mdns     = require('mdns'),
     uuid     = require('node-uuid'),
     logger   = require("../logger")().addLogger('avahi'),
     Backbone = require("backbone"),
